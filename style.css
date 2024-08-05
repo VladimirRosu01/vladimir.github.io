@@ -165,6 +165,9 @@ resume-wrapper {
     background-color: #f4f4f4; /* Light gray background for the wrapper */
 }
 
+.no-background {
+    background: none; /* Removes background image */
+}
 /* Container styling */
 .resume-container {
     width: 100%;

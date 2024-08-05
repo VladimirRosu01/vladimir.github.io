@@ -104,9 +104,10 @@ body {
 }
 
 .project-image {
-    max-width: 150px; /* Set a fixed width for the image */
+     max-width: 150px; /* Max width */
+    width: 100%; /* Ensures responsiveness */
     height: auto; /* Maintain aspect ratio */
-    margin-right: 20px; /* Space between image and text */
+    object-fit: cover; /* Ensures the image covers the container */
 }
 
 .project-content {

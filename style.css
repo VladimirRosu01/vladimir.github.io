@@ -158,3 +158,55 @@ body {
         padding: 10px; /* Adjust padding for smaller screens */
     }
 }
+resume-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f4f4f4; /* Light gray background for the wrapper */
+}
+
+/* Container styling */
+.resume-container {
+    width: 100%;
+    max-width: 900px; /* Set a max-width for better readability */
+    background-color: #fff; /* White background inside the box */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the box */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow for a subtle 3D effect */
+}
+
+/* General section styling inside the container */
+.section {
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #333; /* Dark color for headings */
+}
+
+h2 {
+    border-bottom: 2px solid #ddd; /* Underline for section titles */
+    padding-bottom: 10px; /* Space below the underline */
+    margin-bottom: 10px; /* Space below the section title */
+}
+
+ul {
+    list-style: none; /* Remove default list bullets */
+    padding-left: 0; /* Remove default padding */
+}
+
+ul li {
+    margin-bottom: 10px; /* Space between list items */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .resume-wrapper {
+        padding: 10px;
+    }
+
+    .resume-container {
+        padding: 15px;
+    }
+}

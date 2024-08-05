@@ -189,6 +189,10 @@ h1, h2 {
     color: #333; /* Dark color for headings */
 }
 
+.header h1 {
+    color: white; /* Change text color to white */
+}
+
 h2 {
     border-bottom: 2px solid #ddd; /* Underline for section titles */
     padding-bottom: 10px; /* Space below the underline */

@@ -1,159 +1,110 @@
-﻿﻿* {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Arial', sans-serif;
 }
 
 body {
     min-height: 100vh;
-    background: url('PortofolioBackgorund.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    text-align: center; /* Center-aligns text */
+    background: url('PortofolioBackgorund.jpg') no-repeat center center/cover;
+    text-align: center;
+    color: #333;
 }
 
-/* Header and Navbar Styling */
 .header {
-    background-color: #333; /* Background color for the header */
-    padding: 10px 0; /* Padding for the header */
-    position: relative; /* Positioning the header */
-    z-index: 1000; /* Ensure header is above other elements */
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: relative;
+    z-index: 100;
 }
 
 .navbar {
-    display: flex; /* Aligns items horizontally */
-    justify-content: center; /* Centers the nav items */
-    list-style: none; /* Removes bullets from list items */
-    margin: 0; /* Removes default margin */
-    padding: 0; /* Removes default padding */
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #007BFF;
+    margin-bottom: 20px;
 }
 
 .navbar a {
-    color: white; /* Text color */
-    text-decoration: none; /* Removes underline */
-    padding: 14px 20px; /* Padding around links */
-    display: inline-block; /* Makes the links inline-blocks */
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1.1em;
 }
 
 .navbar a:hover {
-    background-color: #575757; /* Changes color on hover */
-    color: white; /* Text color on hover */
+    background-color: #0056b3;
+    border-radius: 5px;
 }
 
-.header.fixed-top {
-    position: fixed; /* Fixes the navbar at the top */
-    top: 0; /* Positions it at the top */
-    width: 100%; /* Makes it full width */
+.resume-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Section Borders and Styling */
-.section-container {
-    border: 2px solid #ddd; /* Light gray border */
-    border-radius: 8px; /* Rounded corners */
-    padding: 20px; /* Padding inside the border */
-    margin: 20px auto; /* Center the container and add margin */
-    max-width: 800px; /* Restrict width for better readability */
-    background-color: #fff; /* White background inside the border */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow for a subtle 3D effect */
+.section {
+    margin-bottom: 30px;
 }
 
-/* Section title styling */
-.section-title {
-    margin: 20px 0;
-    font-size: 2em;
-    text-align: center;
-}
-
-/* Projects section styling */
-.projects-group {
-    display: flex; /* Flexbox for aligning group text and project items */
-    align-items: flex-start; /* Align items to the start of the container */
-    justify-content: center; /* Center the content horizontally */
-    gap: 20px; /* Space between group text and projects */
-}
-
-
-
-.group-text {
-    display: flex;
-    align-items: center; /* Center-align text vertically */
-    margin-right: 20px; /* Space between group text and projects */
-}
-
-.group-text h3 {
-    margin: 0; /* Remove default margin */
-}
-
-.projects-list {
-    display: flex;
-    flex-direction: column; /* Stack projects vertically */
-    gap: 20px; /* Space between project items */
-}
-
-.project-item {
-    display: flex; /* Flexbox for alignment within each project item */
-    align-items: center; /* Vertical center alignment */
-    text-align: left; /* Align text to the left */
-    border: 1px solid #ddd; /* Border for visual separation */
-    border-radius: 8px; /* Rounded corners */
-    background-color: #fff; /* White background inside the border */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow for a subtle 3D effect */
-    padding: 10px; /* Padding inside the project item */
-}
-
-.project-image {
-    max-width: 150px; /* Set a fixed width for the image */
-    height: auto; /* Maintain aspect ratio */
-    margin-right: 20px; /* Space between image and text */
-}
-
-.project-content {
-    flex: 1; /* Takes up remaining space */
-}
-
-.project-title {
-    font-size: 1.5em; /* Larger font size for project titles */
-    margin: 0; /* Remove default margin */
-}
-
-.project-description, .project-team, .project-contribution {
-    font-size: 1em; /* Adjust font size */
-    margin-bottom: 10px; /* Space below each item */
-}
-
-.project-link {
-    text-decoration: none;
+.section h2 {
+    font-size: 1.8em;
     color: #007BFF;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.section ul li {
+    margin-bottom: 15px;
+    font-size: 1em;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.section ul li strong {
     font-weight: bold;
 }
 
-.project-link:hover {
-    text-decoration: underline;
+.section ul li em {
+    font-style: italic;
+    color: #666;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .projects-group {
-        flex-direction: column; /* Stack group text and projects vertically on smaller screens */
-        align-items: center; /* Center align items on smaller screens */
-    }
+.skills p, .skills ul {
+    text-align: left;
+    margin: 0;
+}
 
-    .group-text {
-        margin-right: 0; /* Remove margin on smaller screens */
-        margin-bottom: 10px; /* Add space below group text */
-    }
+.skills ul {
+    padding-left: 20px;
+    list-style-position: inside;
+}
 
-    .projects-list {
-        width: 100%; /* Full width on smaller screens */
-    }
+.skills ul li {
+    margin-bottom: 10px;
+    font-size: 1em;
+    line-height: 1.5;
+}
 
-    .project-image {
-        max-width: 100px; /* Adjust image size for smaller screens */
-    }
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
 
-    .project-content {
-        padding: 10px; /* Adjust padding for smaller screens */
-    }
+a:hover {
+    text-decoration: underline;
 }

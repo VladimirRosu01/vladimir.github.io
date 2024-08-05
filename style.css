@@ -160,11 +160,12 @@ body {
 }
 .resume-wrapper {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    background-color: #f4f4f4; /* Light gray background for the wrapper */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    min-height: 100vh; /* Full viewport height */
+    padding: 20px; /* Optional padding */
 }
+
 
 .no-background {
     background: none; /* Removes background image */
@@ -172,14 +173,14 @@ body {
 /* Container styling */
 .resume-container {
     width: 100%;
-    max-width: 900px; /* Set a max-width for better readability */
-    background-color: #fff; /* White background inside the box */
-    border: 1px solid #ddd; /* Light gray border */
+    max-width: 800px; /* Max width to ensure readability */
+    padding: 20px; /* Padding inside the container */
+    background-color: #fff; /* White background */
+    border: 2px solid #ddd; /* Light border */
     border-radius: 8px; /* Rounded corners */
-    padding: 20px; /* Padding inside the box */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow for a subtle 3D effect */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+    box-sizing: border-box; /* Ensure padding and border are included in width */
 }
-
 /* General section styling inside the container */
 .section {
     margin-bottom: 20px;
@@ -190,7 +191,10 @@ h1, h2 {
 }
 
 .header h1 {
-    color: white; /* Change text color to white */
+    color: white; /* White text color */
+}
+.header p {
+    color: white; /* Ensure other text is also visible */
 }
 
 h2 {

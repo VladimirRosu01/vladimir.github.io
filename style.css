@@ -186,15 +186,12 @@ body {
     margin-bottom: 20px;
 }
 
-h1, h2 {
-    color: #black; /* Dark color for headings */
-}
 
 .header h1 {
-    color: white; /* White text color */
+    color: black; /* White text color */
 }
 .header p {
-    color: white; /* Ensure other text is also visible */
+    color: black; /* Ensure other text is also visible */
 }
 
 h2 {

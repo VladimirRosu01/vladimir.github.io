@@ -190,8 +190,8 @@ body {
 .header h1, .header p {
     color: black; /* Change text color to white */
 }
-.white-text h1,
-.white-text p {
+.header-resume h1,
+.header-resume p {
     color: white;
 }
 

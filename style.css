@@ -134,7 +134,7 @@ body {
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 300px) {
     .projects-group {
         flex-direction: column; /* Stack group text and projects vertically on smaller screens */
         align-items: center; /* Center align items on smaller screens */

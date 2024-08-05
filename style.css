@@ -187,11 +187,8 @@ body {
 }
 
 
-.header h1 {
-    color: black; /* White text color */
-}
-.header p {
-    color: black; /* Ensure other text is also visible */
+.header h1, .header p {
+    color: white; /* Change text color to white */
 }
 
 h2 {

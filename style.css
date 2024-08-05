@@ -37,9 +37,12 @@ body {
     display: inline-block; 
 }
 
+.header h1, .header p, 
+.header-resume h1, .header-resume p {
+    color: black; /* Ensure text is black */
+}
 .navbar a:hover {
-    background-color: #575757; 
-    color: white; 
+    background-color: #575757;
 }
 
 .header.fixed-top {
@@ -186,14 +189,6 @@ body {
     margin-bottom: 20px;
 }
 
-
-.header h1, .header p {
-    color: black; /* Change text color to white */
-}
-.header-resume h1,
-.header-resume p {
-    color: black;
-}
 
 h2 {
     border-bottom: 2px solid #ddd; 

@@ -11,52 +11,52 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    text-align: center; /* Center-aligns text */
+    text-align: center; 
 }
 
-/* Header and Navbar Styling */
+
 .header {
-    background-color: #333; /* Background color for the header */
-    padding: 10px 0; /* Padding for the header */
-    position: relative; /* Positioning the header */
-    z-index: 1000; /* Ensure header is above other elements */
+    background-color: #333; 
+    padding: 10px 0;
+    position: relative; 
+    z-index: 1000; 
 }
 
 .navbar {
-    display: flex; /* Aligns items horizontally */
-    justify-content: center; /* Centers the nav items */
-    list-style: none; /* Removes bullets from list items */
-    margin: 0; /* Removes default margin */
-    padding: 0; /* Removes default padding */
+    display: flex; 
+    justify-content: center; 
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
 }
 
 .navbar a {
-    color: white; /* Text color */
-    text-decoration: none; /* Removes underline */
-    padding: 14px 20px; /* Padding around links */
-    display: inline-block; /* Makes the links inline-blocks */
+    color: white;
+    text-decoration: none; 
+    padding: 14px 20px; 
+    display: inline-block; 
 }
 
 .navbar a:hover {
-    background-color: #575757; /* Changes color on hover */
-    color: white; /* Text color on hover */
+    background-color: #575757; 
+    color: white; 
 }
 
 .header.fixed-top {
-    position: fixed; /* Fixes the navbar at the top */
-    top: 0; /* Positions it at the top */
-    width: 100%; /* Makes it full width */
+    position: fixed;
+    top: 0; 
+    width: 100%;
 }
 
 /* Section Borders and Styling */
 .section-container {
-    border: 2px solid #ddd; /* Light gray border */
-    border-radius: 8px; /* Rounded corners */
-    padding: 20px; /* Padding inside the border */
-    margin: 20px auto; /* Center the container and add margin */
-    max-width: 800px; /* Restrict width for better readability */
-    background-color: #fff; /* White background inside the border */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow for a subtle 3D effect */
+    border: 2px solid #ddd;
+    border-radius: 8px; 
+    padding: 20px; 
+    margin: 20px auto;
+    max-width: 800px; 
+    background-color: #fff; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
 /* Section title styling */
@@ -99,8 +99,8 @@ body {
     border: 1px solid #ddd; /* Border for visual separation */
     border-radius: 8px; /* Rounded corners */
     background-color: #fff; /* White background inside the border */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow for a subtle 3D effect */
-    padding: 10px; /* Padding inside the project item */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    padding: 10px; 
 }
 
 .project-image {
@@ -179,7 +179,7 @@ body {
     border: 2px solid #ddd; /* Light border */
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
-    box-sizing: border-box; /* Ensure padding and border are included in width */
+    box-sizing: border-box; 
 }
 /* General section styling inside the container */
 .section {
@@ -196,18 +196,18 @@ body {
 }
 
 h2 {
-    border-bottom: 2px solid #ddd; /* Underline for section titles */
-    padding-bottom: 10px; /* Space below the underline */
-    margin-bottom: 10px; /* Space below the section title */
+    border-bottom: 2px solid #ddd; 
+    padding-bottom: 10px; 
+    margin-bottom: 10px; 
 }
 
 ul {
-    list-style: none; /* Remove default list bullets */
-    padding-left: 0; /* Remove default padding */
+    list-style: none; 
+    padding-left: 0; 
 }
 
 ul li {
-    margin-bottom: 10px; /* Space between list items */
+    margin-bottom: 10px; 
 }
 
 /* Responsive Design */

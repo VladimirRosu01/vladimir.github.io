@@ -161,6 +161,7 @@ body {
 resume-wrapper {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 20px;
     background-color: #f4f4f4; /* Light gray background for the wrapper */
 }
